@@ -1,6 +1,7 @@
 # http-logger-mysql
 
-A middleware for logging HTTP requests and responses to a MySQL database.
+A middleware for logging HTTP requests and responses to a MySQL database. 
+Includes also a middleware to block HTTP rquests from malicious IPs.
 Create the MySQL database first by executing the sql script
 
 ## Installation
