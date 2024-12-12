@@ -1,0 +1,42 @@
+{
+  "name": "api-logging-middleware-mysql",
+  "version": "1.0.2",
+  "description": "Middleware to capture HTTP requests and responses in you APIs and store them to a MySQL database",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybelin/npm-logging-middleware-mysql.git"
+  },
+  "keywords": [
+    "api",
+    "logging",
+    "middleware",
+    "mysql",
+    "http",
+    "express",
+    "logger"
+  ],
+  "author": "cybelin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybelin/npm-logging-middleware-mysql/issues"
+  },
+  "homepage": "https://github.com/cybelin/npm-logging-middleware-mysql#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "uuid": "^11.0.3"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  },
+  "type": "module"
+}
